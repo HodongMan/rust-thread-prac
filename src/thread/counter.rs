@@ -1,7 +1,7 @@
 use std::sync::{Mutex, Arc};
 use std::thread;
 
-fn main() {
+fn countThread() {
 
     let counter = Arc::new(Mutex::new(0));
     let mut handles = vec![];
